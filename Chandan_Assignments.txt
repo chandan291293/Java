@@ -1,0 +1,177 @@
+ASSIGNMENT 1
+
+Q:service "BESCLIENT"
+A: "BESClient" "BES Client" "Running"
+T: 0.081 ms
+
+Q:state of service "BESCLIENT"
+A: Running
+T: 0.094 ms
+
+Q:version of service "BESCLIENT"
+A: 9.2.0.363
+T: 0.406 ms
+
+
+Q: if(10=12) then "true" else "false"
+A: false
+T: 0.069 ms
+
+Q:if(state of service "BESCLIENT"="Running") then "1" else "0"
+A: 1
+T: 0.131 ms
+
+Q:running services
+A: "AeLookupSvc" "Application Experience" "Running"
+A: "AppMgmt" "Application Management" "Running"
+A: "BESClient" "BES Client" "Running"
+A: "BESGather" "BES Gather Service" "Running"
+A: "BESRootServer" "BES Root Server" "Running"
+A: "BESWebReportsServer" "BES Web Reports Server" "Running"
+A: "BFE" "Base Filtering Engine" "Running"
+A: "BITS" "Background Intelligent Transfer Service" "Running"
+A: "CcmExec" "SMS Agent Host" "Running"
+A: "CertPropSvc" "Certificate Propagation" "Running"
+A: "CmRcService" "Configuration Manager Remote Control" "Running"
+A: "CryptSvc" "Cryptographic Services" "Running"
+A: "DcomLaunch" "DCOM Server Process Launcher" "Running"
+A: "Dhcp" "DHCP Client" "Running"
+A: "DiagTrack" "Diagnostics Tracking Service" "Running"
+A: "Dnscache" "DNS Client" "Running"
+A: "DPS" "Diagnostic Policy Service" "Running"
+A: "eventlog" "Windows Event Log" "Running"
+A: "EventSystem" "COM+ Event System" "Running"
+A: "FillDB" "BES FillDB" "Running"
+A: "FontCache" "Windows Font Cache Service" "Running"
+A: "GatherDB" "BES GatherDB" "Running"
+A: "gpsvc" "Group Policy Client" "Running"
+A: "IKEEXT" "IKE and AuthIP IPsec Keying Modules" "Running"
+A: "iphlpsvc" "IP Helper" "Running"
+A: "KeyIso" "CNG Key Isolation" "Running"
+A: "LanmanServer" "Server" "Running"
+A: "LanmanWorkstation" "Workstation" "Running"
+A: "lmhosts" "TCP/IP NetBIOS Helper" "Running"
+A: "MpsSvc" "Windows Firewall" "Running"
+A: "MSDTC" "Distributed Transaction Coordinator" "Running"
+A: "MSSQLSERVER" "SQL Server (MSSQLSERVER)" "Running"
+A: "Netlogon" "Netlogon" "Running"
+A: "Netman" "Network Connections" "Running"
+A: "netprofm" "Network List Service" "Running"
+A: "NlaSvc" "Network Location Awareness" "Running"
+A: "nsi" "Network Store Interface Service" "Running"
+A: "ntrtscan" "OfficeScan NT RealTime Scan" "Running"
+A: "PlugPlay" "Plug and Play" "Running"
+A: "PolicyAgent" "IPsec Policy Agent" "Running"
+A: "Power" "Power" "Running"
+A: "ProfSvc" "User Profile Service" "Running"
+A: "RemoteRegistry" "Remote Registry" "Running"
+A: "RpcEptMapper" "RPC Endpoint Mapper" "Running"
+A: "RpcSs" "Remote Procedure Call (RPC)" "Running"
+A: "SamSs" "Security Accounts Manager" "Running"
+A: "Schedule" "Task Scheduler" "Running"
+A: "seclogon" "Secondary Logon" "Running"
+A: "SENS" "System Event Notification Service" "Running"
+A: "SessionEnv" "Remote Desktop Configuration" "Running"
+A: "ShellHWDetection" "Shell Hardware Detection" "Running"
+A: "Spooler" "Print Spooler" "Running"
+A: "SQLWriter" "SQL Server VSS Writer" "Running"
+A: "TermService" "Remote Desktop Services" "Running"
+A: "tmlisten" "OfficeScan NT Listener" "Running"
+A: "TrkWks" "Distributed Link Tracking Client" "Running"
+A: "Tuner" "Tuner" "Running"
+A: "UmRdpService" "Remote Desktop Services UserMode Port Redirector" "Running"
+A: "UxSms" "Desktop Window Manager Session Manager" "Running"
+A: "W32Time" "Windows Time" "Running"
+A: "Winmgmt" "Windows Management Instrumentation" "Running"
+A: "WinRM" "Windows Remote Management (WS-Management)" "Running"
+A: "wuauserv" "Windows Update" "Running"
+T: 63.221 ms
+
+
+
+
+
+
+ASSIGNMENT 2
+
+Q:exists "C:"
+A: True
+T: 0.081 ms
+
+Q:if(exists file "C:\Users\Administrator\Desktop\Chinmay_Relevance_Assignments\ChinmayAssignment1.qna") then lines of file "C:\Users\Administrator\Desktop\Chinmay_Relevance_Assignments\ChinmayAssignment1.qna" else "Failed"
+A: Failed
+T: 0.586 ms
+
+
+Q: names of find files "*.txt" of folder "C:\Program Files (x86)\BigFix Enterprise\BES Installers"
+T: 0.882 ms
+
+
+
+Q:if (exists file "C:\c123.txt") then lines of file "C:\c123.txt" else "No content"
+A: fsfsdf
+A: sdf
+A: sdf
+A: sdf
+A: sd
+A: f
+A: sdf
+A: fhdrdykdhn
+T: 1.330 ms
+
+Q:names of find files "*.txt" of folder "C:\"
+A: ass.txt
+A: c123.txt
+T: 0.974 ms
+
+
+ASSIGNMENT 3
+
+
+Q:exists folder "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security"
+A: False
+T: 0.225 ms
+
+Q:exists folder "Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security"
+A: False
+T: 0.317 ms
+
+Q:exists "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security"
+A: True
+T: 0.039 ms
+
+Q: exists "ergerg"
+A: True
+T: 0.053 ms
+
+
+Q:exists folder "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security"
+A: False
+T: 0.918 ms
+
+Q:exists key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security" of registry  
+A: True
+T: 0.099 ms
+
+Q:exists key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\MaxSize" of registry 
+A: False
+T: 0.130 ms
+
+Q:exists key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\" of registry 
+A: True
+T: 0.145 ms
+
+Q:(exists value "MaxSize" of key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\" of registry) 
+A: True
+T: 0.100 ms
+
+Q:value "MaxSize" of key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\" of registry
+A: 20971520
+T: 0.133 ms
+
+Q:if(exists value "MaxSize" of key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\" of registry and value "MaxSize" of key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\" of registry is greater than 600000) then value else "0"
+E: The operator "value" is not defined.
+
+Q:if(exists key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security" of registry) whose (value "MaxSize" of key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\" of registry is greater than 95000) then "True" else "False"
+A: True
+T: 0.595 ms
