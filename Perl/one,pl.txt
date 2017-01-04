@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+$str="This is a sample string";
